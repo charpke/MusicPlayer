@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBDDB4161C09199000831505 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDDB4151C09199000831505 /* AVFoundation.framework */; };
 		CBF0831B1C079825005D2F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0831A1C079825005D2F7C /* AppDelegate.swift */; };
 		CBF0831D1C079825005D2F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0831C1C079825005D2F7C /* ViewController.swift */; };
 		CBF083201C079825005D2F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0831E1C079825005D2F7C /* Main.storyboard */; };
@@ -14,6 +15,24 @@
 		CBF083251C079825005D2F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF083231C079825005D2F7C /* LaunchScreen.storyboard */; };
 		CBF083301C079826005D2F7C /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0832F1C079826005D2F7C /* MusicPlayerTests.swift */; };
 		CBF0833B1C079826005D2F7C /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0833A1C079826005D2F7C /* MusicPlayerUITests.swift */; };
+		CBF083491C07994A005D2F7C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF083481C07994A005D2F7C /* background.png */; };
+		CBF0836A1C079AD1005D2F7C /* 01 Zerox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083591C079AD1005D2F7C /* 01 Zerox.mp3 */; };
+		CBF0836B1C079AD1005D2F7C /* 02 Kings of the Wild Frontier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF0835A1C079AD1005D2F7C /* 02 Kings of the Wild Frontier.mp3 */; };
+		CBF0836C1C079AD1005D2F7C /* 03 Dog Eat Dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF0835B1C079AD1005D2F7C /* 03 Dog Eat Dog.mp3 */; };
+		CBF0836D1C079AD1005D2F7C /* 04 Antmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF0835C1C079AD1005D2F7C /* 04 Antmusic.mp3 */; };
+		CBF0836E1C079AD1005D2F7C /* 05 Physical (You're So).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF0835D1C079AD1005D2F7C /* 05 Physical (You're So).mp3 */; };
+		CBF0836F1C079AD1005D2F7C /* 06 Stand and Deliver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF0835E1C079AD1005D2F7C /* 06 Stand and Deliver.mp3 */; };
+		CBF083701C079AD1005D2F7C /* 07 Prince Charming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF0835F1C079AD1005D2F7C /* 07 Prince Charming.mp3 */; };
+		CBF083711C079AD1005D2F7C /* 08 Ant Rap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083601C079AD1005D2F7C /* 08 Ant Rap.mp3 */; };
+		CBF083721C079AD1005D2F7C /* 09 Friend or Foe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083611C079AD1005D2F7C /* 09 Friend or Foe.mp3 */; };
+		CBF083731C079AD1005D2F7C /* 10 Goody Two Shoes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083621C079AD1005D2F7C /* 10 Goody Two Shoes.mp3 */; };
+		CBF083741C079AD1005D2F7C /* 11 Desperate But Not Serious.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083631C079AD1005D2F7C /* 11 Desperate But Not Serious.mp3 */; };
+		CBF083751C079AD1005D2F7C /* 12 Place in the Country.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083641C079AD1005D2F7C /* 12 Place in the Country.mp3 */; };
+		CBF083761C079AD1005D2F7C /* 13 Strip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083651C079AD1005D2F7C /* 13 Strip.mp3 */; };
+		CBF083771C079AD1005D2F7C /* 14 Puss'n Boots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083661C079AD1005D2F7C /* 14 Puss'n Boots.mp3 */; };
+		CBF083781C079AD1005D2F7C /* 15 Apollo 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083671C079AD1005D2F7C /* 15 Apollo 9.mp3 */; };
+		CBF083791C079AD1005D2F7C /* 16 Room at the Top.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083681C079AD1005D2F7C /* 16 Room at the Top.mp3 */; };
+		CBF0837A1C079AD1005D2F7C /* 17 Wonderful.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CBF083691C079AD1005D2F7C /* 17 Wonderful.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBDDB4151C09199000831505 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CBDDB5951C09FE9B00831505 /* MusicPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MusicPlayer.entitlements; sourceTree = "<group>"; };
 		CBF083171C079825005D2F7C /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF0831A1C079825005D2F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF0831C1C079825005D2F7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,24 @@
 		CBF083361C079826005D2F7C /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF0833A1C079826005D2F7C /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		CBF0833C1C079826005D2F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF083481C07994A005D2F7C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		CBF083591C079AD1005D2F7C /* 01 Zerox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Zerox.mp3"; sourceTree = "<group>"; };
+		CBF0835A1C079AD1005D2F7C /* 02 Kings of the Wild Frontier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Kings of the Wild Frontier.mp3"; sourceTree = "<group>"; };
+		CBF0835B1C079AD1005D2F7C /* 03 Dog Eat Dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Dog Eat Dog.mp3"; sourceTree = "<group>"; };
+		CBF0835C1C079AD1005D2F7C /* 04 Antmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Antmusic.mp3"; sourceTree = "<group>"; };
+		CBF0835D1C079AD1005D2F7C /* 05 Physical (You're So).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Physical (You're So).mp3"; sourceTree = "<group>"; };
+		CBF0835E1C079AD1005D2F7C /* 06 Stand and Deliver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Stand and Deliver.mp3"; sourceTree = "<group>"; };
+		CBF0835F1C079AD1005D2F7C /* 07 Prince Charming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 Prince Charming.mp3"; sourceTree = "<group>"; };
+		CBF083601C079AD1005D2F7C /* 08 Ant Rap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Ant Rap.mp3"; sourceTree = "<group>"; };
+		CBF083611C079AD1005D2F7C /* 09 Friend or Foe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 Friend or Foe.mp3"; sourceTree = "<group>"; };
+		CBF083621C079AD1005D2F7C /* 10 Goody Two Shoes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 Goody Two Shoes.mp3"; sourceTree = "<group>"; };
+		CBF083631C079AD1005D2F7C /* 11 Desperate But Not Serious.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 Desperate But Not Serious.mp3"; sourceTree = "<group>"; };
+		CBF083641C079AD1005D2F7C /* 12 Place in the Country.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12 Place in the Country.mp3"; sourceTree = "<group>"; };
+		CBF083651C079AD1005D2F7C /* 13 Strip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13 Strip.mp3"; sourceTree = "<group>"; };
+		CBF083661C079AD1005D2F7C /* 14 Puss'n Boots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 Puss'n Boots.mp3"; sourceTree = "<group>"; };
+		CBF083671C079AD1005D2F7C /* 15 Apollo 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15 Apollo 9.mp3"; sourceTree = "<group>"; };
+		CBF083681C079AD1005D2F7C /* 16 Room at the Top.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16 Room at the Top.mp3"; sourceTree = "<group>"; };
+		CBF083691C079AD1005D2F7C /* 17 Wonderful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17 Wonderful.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBDDB4161C09199000831505 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +117,7 @@
 		CBF0830E1C079825005D2F7C = {
 			isa = PBXGroup;
 			children = (
+				CBDDB4151C09199000831505 /* AVFoundation.framework */,
 				CBF083191C079825005D2F7C /* MusicPlayer */,
 				CBF0832E1C079826005D2F7C /* MusicPlayerTests */,
 				CBF083391C079826005D2F7C /* MusicPlayerUITests */,
@@ -97,6 +138,9 @@
 		CBF083191C079825005D2F7C /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				CBDDB5951C09FE9B00831505 /* MusicPlayer.entitlements */,
+				CBF0834A1C07996E005D2F7C /* MusicFiles */,
+				CBF083481C07994A005D2F7C /* background.png */,
 				CBF0831A1C079825005D2F7C /* AppDelegate.swift */,
 				CBF0831C1C079825005D2F7C /* ViewController.swift */,
 				CBF0831E1C079825005D2F7C /* Main.storyboard */,
@@ -123,6 +167,30 @@
 				CBF0833C1C079826005D2F7C /* Info.plist */,
 			);
 			path = MusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		CBF0834A1C07996E005D2F7C /* MusicFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CBF083591C079AD1005D2F7C /* 01 Zerox.mp3 */,
+				CBF0835A1C079AD1005D2F7C /* 02 Kings of the Wild Frontier.mp3 */,
+				CBF0835B1C079AD1005D2F7C /* 03 Dog Eat Dog.mp3 */,
+				CBF0835C1C079AD1005D2F7C /* 04 Antmusic.mp3 */,
+				CBF0835D1C079AD1005D2F7C /* 05 Physical (You're So).mp3 */,
+				CBF0835E1C079AD1005D2F7C /* 06 Stand and Deliver.mp3 */,
+				CBF0835F1C079AD1005D2F7C /* 07 Prince Charming.mp3 */,
+				CBF083601C079AD1005D2F7C /* 08 Ant Rap.mp3 */,
+				CBF083611C079AD1005D2F7C /* 09 Friend or Foe.mp3 */,
+				CBF083621C079AD1005D2F7C /* 10 Goody Two Shoes.mp3 */,
+				CBF083631C079AD1005D2F7C /* 11 Desperate But Not Serious.mp3 */,
+				CBF083641C079AD1005D2F7C /* 12 Place in the Country.mp3 */,
+				CBF083651C079AD1005D2F7C /* 13 Strip.mp3 */,
+				CBF083661C079AD1005D2F7C /* 14 Puss'n Boots.mp3 */,
+				CBF083671C079AD1005D2F7C /* 15 Apollo 9.mp3 */,
+				CBF083681C079AD1005D2F7C /* 16 Room at the Top.mp3 */,
+				CBF083691C079AD1005D2F7C /* 17 Wonderful.mp3 */,
+			);
+			name = MusicFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +261,12 @@
 				TargetAttributes = {
 					CBF083161C079825005D2F7C = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3PW3V3ETUU;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 					CBF0832A1C079826005D2F7C = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -229,9 +303,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF0836B1C079AD1005D2F7C /* 02 Kings of the Wild Frontier.mp3 in Resources */,
+				CBF083781C079AD1005D2F7C /* 15 Apollo 9.mp3 in Resources */,
+				CBF0836C1C079AD1005D2F7C /* 03 Dog Eat Dog.mp3 in Resources */,
 				CBF083251C079825005D2F7C /* LaunchScreen.storyboard in Resources */,
+				CBF083731C079AD1005D2F7C /* 10 Goody Two Shoes.mp3 in Resources */,
+				CBF083491C07994A005D2F7C /* background.png in Resources */,
+				CBF083751C079AD1005D2F7C /* 12 Place in the Country.mp3 in Resources */,
+				CBF083761C079AD1005D2F7C /* 13 Strip.mp3 in Resources */,
+				CBF083721C079AD1005D2F7C /* 09 Friend or Foe.mp3 in Resources */,
+				CBF083741C079AD1005D2F7C /* 11 Desperate But Not Serious.mp3 in Resources */,
+				CBF0837A1C079AD1005D2F7C /* 17 Wonderful.mp3 in Resources */,
 				CBF083221C079825005D2F7C /* Assets.xcassets in Resources */,
+				CBF0836E1C079AD1005D2F7C /* 05 Physical (You're So).mp3 in Resources */,
+				CBF0836F1C079AD1005D2F7C /* 06 Stand and Deliver.mp3 in Resources */,
+				CBF0836D1C079AD1005D2F7C /* 04 Antmusic.mp3 in Resources */,
+				CBF0836A1C079AD1005D2F7C /* 01 Zerox.mp3 in Resources */,
+				CBF083711C079AD1005D2F7C /* 08 Ant Rap.mp3 in Resources */,
+				CBF083771C079AD1005D2F7C /* 14 Puss'n Boots.mp3 in Resources */,
+				CBF083701C079AD1005D2F7C /* 07 Prince Charming.mp3 in Resources */,
 				CBF083201C079825005D2F7C /* Main.storyboard in Resources */,
+				CBF083791C079AD1005D2F7C /* 16 Room at the Top.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +489,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuckharpke.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,10 +505,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuckharpke.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -482,6 +584,7 @@
 				CBF083411C079826005D2F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBF083421C079826005D2F7C /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +593,7 @@
 				CBF083441C079826005D2F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBF083451C079826005D2F7C /* Build configuration list for PBXNativeTarget "MusicPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +602,7 @@
 				CBF083471C079826005D2F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
